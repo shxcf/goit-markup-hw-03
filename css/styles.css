@@ -48,6 +48,11 @@ body {
   text-decoration: none;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* -----------------HEADER-------------------- */
 
 .header-link {
@@ -65,6 +70,9 @@ body {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
 }
 
 .header-list {
@@ -161,6 +169,8 @@ body {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
@@ -190,11 +200,6 @@ body {
 }
 
 /* --------------------THINGS---------------- */
-
-.things-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .things-list {
   display: flex;
@@ -238,11 +243,6 @@ body {
 }
 
 /* ----------------------GROUP---------------------------- */
-
-.group-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .group-list {
   display: flex;
@@ -319,6 +319,38 @@ body {
 }
 
 /* -------------------------THEMES------------------- */
+
+.themes-list {
+  display: flex;
+  margin-bottom: 34px;
+  justify-content: center;
+}
+
+.themes-item:not(:last-child) {
+  padding-right: 8px;
+}
+
+.themes-lists {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.themes-items {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-bottom-width: 1 px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
+}
+
+.themes-items:nth-child(3n) {
+  margin-right: 0;
+}
+
+.themes-item-title {
+  padding-top: 20px;
+  padding-bottom: 4px;
+}
 
 .themes-btn {
   font-family: inherit;

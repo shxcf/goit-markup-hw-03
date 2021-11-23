@@ -41,14 +41,18 @@
         </div>
     </header>
     <main>
-        <div class="container decision-container">
-            <section class="decision">
-                <h1 class="decision-title">Эффективные решения для вашего бизнеса</h1>
-                <button class="decision-btn" type="button">Заказать услугу</button>
-            </section>
-        </div>
-        <div class="container things-container section">
-            <section class="things">
+        <section class="decision section">
+            <div class="container decision-container">
+                <div class="decision-item1">
+                    <h1 class="decision-title">Эффективные решения для вашего бизнеса</h1>
+                </div>
+                <div class="decision-item2">
+                    <button class="decision-btn" type="button">Заказать услугу</button>
+                </div>
+            </div>
+        </section>
+        <section class="things section">
+            <div class="container things-container">
                 <ul class="things-list list">
                     <li class="things-item">
                         <h2 class="things-item-title">ВНИМАНИЕ К ДЕТАЛЯМ</h2>
@@ -82,35 +86,43 @@
                         </li>
                     </ul>
                 </div>
-            </section>
-        </div>
-        <div class="container group-container section">
-            <section class="group">
+            </div>
+        </section>
+        <section class="group section">
+            <div class="container group-container">
                 <h2 class="group-title">Наша команда</h2>
                 <ul class="group-list list">
                     <li class="group-item">
                         <img src="./images/img1.jpg" alt="светловолосая девушка улыбается" width="270" height="260">
-                        <h3 class="group-item-title">Игорь Демьяненко</h3>
-                        <p class="group-item-text" lang="en">Product Designer</p>
+                        <div class="group-block">
+                            <h3 class="group-item-title">Игорь Демьяненко</h3>
+                            <p class="group-item-text" lang="en">Product Designer</p>
+                        </div>
                     </li>
                     <li class="group-item">
                         <img src="./images/img2.jpg" alt="светловолосый парень улыбается" width="270" height="260">
-                        <h3 class="group-item-title">Ольга Репина</h3>
-                        <p  class="group-item-text" lang="en">Frontend Developer</p>
+                        <div class="group-block">
+                            <h3 class="group-item-title">Ольга Репина</h3>
+                            <p  class="group-item-text" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="group-item">
                         <img src="./images/img3.jpg" alt="темноволосый парень в очках" width="270" height="260">
-                        <h3 class="group-item-title">Николай Тарасов</h3>
-                        <p class="group-item-text" lang="en">Marketing</p>
+                        <div class="group-block">
+                            <h3 class="group-item-title">Николай Тарасов</h3>
+                            <p class="group-item-text" lang="en">Marketing</p>
+                    </div>
                     </li>
                     <li class="group-item">
                         <img src="./images/img4.jpg" alt="темноволосый парень в очках улыбается" width="270" height="260">
-                        <h3 class="group-item-title">Михаил Ермаков</h3>
-                        <p  class="group-item-text" lang="en">UI Designer</p>
+                        <div class="group-block">
+                            <h3 class="group-item-title">Михаил Ермаков</h3>
+                            <p  class="group-item-text" lang="en">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="container footer-container">

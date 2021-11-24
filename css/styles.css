@@ -168,7 +168,7 @@ body {
 
 /* --------------DECISION------------ */
 
-.decision-container {
+.decision {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -252,9 +252,27 @@ body {
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
-  padding-top: 94px;
-  padding-bottom: 50px;
   text-align: center;
+}
+
+/* ------------------OCCUPATION---------------------------- */
+
+.occupation-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.occupation-list {
+  display: flex;
+}
+
+.occupation-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* ----------------------GROUP---------------------------- */
@@ -282,7 +300,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-title-color);
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .group-item-title {
@@ -315,7 +333,7 @@ body {
 
 /* ----------------------------FOOTER-------------------- */
 
-.footer-container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -348,7 +366,7 @@ body {
   justify-content: center;
   min-width: 611px;
   min-height: 54px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .themes-item:not(:last-child) {
@@ -378,8 +396,7 @@ body {
 }
 
 .themes-item-title {
-  padding-top: 20px;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .themes-btn {
@@ -390,6 +407,7 @@ body {
   letter-spacing: 0.03em;
   cursor: pointer;
   color: var(--second-title-color);
+  padding: 6px 24px 6px 24px;
 }
 
 .themes-btn:hover {
